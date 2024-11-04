@@ -54,7 +54,7 @@ const Navbar = () => {
         ></i>
 
         <div
-          className={`absolute text-[#fff]  xl:hidden top-24 left-0 w-full bg-[rgba(0,0,0,0.8)] flex flex-col items-center gap-6 font-bold text-xl transform transition-transform ${
+          className={`absolute ml-4  text-[#fff]  xl:hidden top-24 left-0 w-full bg-[rgba(0,0,0,0.8)] flex flex-col items-center gap-6 font-bold text-xl transform transition-transform ${
             isMenuOpen ? "opacity-100" : "opacity-0"
           }`}
           style={{ transition: "transform 0.3s ease, opacity 0.3s ease" }}
